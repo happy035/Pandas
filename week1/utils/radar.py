@@ -75,4 +75,4 @@ def radar_graph(labels = [], values = [], optimum = [], title = ''):
     ax.set_varlabels(labels)
 
     plt.show()
-    #plt.savefig("radar.png", dpi=100)
+    plt.savefig("radar.png", dpi=100)
